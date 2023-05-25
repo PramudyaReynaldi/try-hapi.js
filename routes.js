@@ -69,6 +69,14 @@ const routes = [
       return `Halo ${pengguna}, kita berada di ${lokasi}`;
     },
   },
+
+  {
+    method: "GET",
+    path: "/query2",
+    handler: (request, h) => {
+      
+    }
+  }
 ];
 
 module.exports = routes;
